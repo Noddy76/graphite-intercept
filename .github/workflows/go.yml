@@ -31,7 +31,7 @@ jobs:
         fi
     - name: Build
       env:
-        GOARCH: arm
+        GOARCH: amd64
         GOOS: linux
       run: go build -v .
     
